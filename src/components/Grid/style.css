@@ -1,0 +1,21 @@
+.pixels-container {
+    display: flex;
+    place-content: center;
+    max-width: 600px;
+    margin: auto;
+}
+
+.pixel-layout {
+    width: 10px;
+    height: 10px;
+    border: 1px solid grey;
+    position: relative;
+    /* background-color: red; */
+}
+
+.input-top-placement {
+    display: flex;
+    justify-content: space-between;
+    max-width: 600px;
+    margin: 10px auto 20px;
+}
